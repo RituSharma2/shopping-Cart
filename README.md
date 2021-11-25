@@ -6,3 +6,7 @@
 - create options object with method and url
 - await axios(options)
 - data will be mostly available in response.data
+
+# post request:
+- method changed to post
+- data field added in options

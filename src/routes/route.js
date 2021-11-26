@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
 
-const weatherController= require("../controllers/weatherController")
+const cryptoController= require("../controllers/cryptoController")
 
-router.get("/weather", weatherController.getWeather)
+router.get("/cryptoCoins", cryptoController.getTopCryptoCoins)
 
 
 module.exports = router;
